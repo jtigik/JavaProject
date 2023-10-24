@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.code.generators.includeFluentWithSettersGetters": true,
+    "java.code.generators.includeGeneratedAnnotation": true,
+    "java.code.generators.methodOpeningBraceOnNewLine": true,
+    "java.code.generators.onlyIdForHashAndEquals": false,
+    "java.code.generators.copyJsonPropertyAnnotationsFromVariablesToSettersGetters": true
+}
