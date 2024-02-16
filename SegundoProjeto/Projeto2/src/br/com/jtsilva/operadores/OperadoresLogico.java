@@ -24,5 +24,15 @@ public class OperadoresLogico {
         } else {
             System.out.println("Usuário ou senha inválido!");
         }
+
+        String afirmar = "Java é muito fácil de aprender!";
+
+        boolean avaliaTexto = afirmar.length() > 20 ? true : false;
+        System.out.printf("O texto informado possui acima de 20 caracteres? R.: %b\n", avaliaTexto);
+
+        String qualidadeDaAgua = "poluída";
+
+        System.out.printf("O banho de mar está %s",
+                qualidadeDaAgua.equalsIgnoreCase("limpa") ? "LIBERADO" : "PROIBIDO");
     }
 }
