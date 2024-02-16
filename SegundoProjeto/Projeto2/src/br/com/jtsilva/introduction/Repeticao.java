@@ -1,4 +1,4 @@
-package br.com.jtsilva;
+package br.com.jtsilva.introduction;
 
 import java.util.Arrays;
 

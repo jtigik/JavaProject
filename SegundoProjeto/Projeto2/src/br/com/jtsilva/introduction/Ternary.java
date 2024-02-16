@@ -1,4 +1,4 @@
-package br.com.jtsilva;
+package br.com.jtsilva.introduction;
 
 public class Ternary {
 
@@ -11,8 +11,8 @@ public class Ternary {
         }
         return msg;
     }
- 
-    public static String if_ternario(int num){
+
+    public static String if_ternario(int num) {
         String msg = num > 10
                 ? "Number is greater than 10"
                 : "Number is less than or equal to 10";
