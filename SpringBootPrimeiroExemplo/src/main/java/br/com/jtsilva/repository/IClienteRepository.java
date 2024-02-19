@@ -1,13 +1,8 @@
-/**
- * 
- */
-
-package main.java.br.com.jtsilva.repository;
+package br.com.jtsilva.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import main.java.br.com.jtsilva.domain.Cliente;
-
+@Repository
 public interface IClienteRepository extends CrudRepository<Cliente, Long> {
 
 }
