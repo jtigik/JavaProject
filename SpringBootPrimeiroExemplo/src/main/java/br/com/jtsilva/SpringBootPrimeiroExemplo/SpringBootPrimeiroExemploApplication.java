@@ -31,6 +31,7 @@ public class SpringBootPrimeiroExemploApplication implements CommandLineRunner {
 		SpringApplication.run(SpringBootPrimeiroExemploApplication.class, args);
 	}
 
+	@SuppressWarnings("null")
 	@Override
 	public void run(String... args) throws Exception {
 		log.info("StartApplication...");
