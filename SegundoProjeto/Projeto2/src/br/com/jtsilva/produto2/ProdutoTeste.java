@@ -1,4 +1,6 @@
-package br.com.jtsilva.produto;
+package br.com.jtsilva.produto2;
+
+import br.com.jtsilva.produto2.Produto;
 
 public class ProdutoTeste {
     public static void main(String[] args) {

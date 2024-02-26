@@ -1,4 +1,4 @@
-package br.com.jtsilva.produto;
+package br.com.jtsilva.produto2;
 
 public class Produto {
     private String nomeProduto;
