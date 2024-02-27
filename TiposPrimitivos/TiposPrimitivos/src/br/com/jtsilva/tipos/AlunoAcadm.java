@@ -18,7 +18,7 @@ public class AlunoAcadm {
 
     @Override
     public String toString() {
-        return "AlunoAcadm:\n idade=" + idade
+        return "AlunoAcadm:\nidade=" + idade
                 + ",\nnome=" + nome
                 + ",\ncurso=" + curso
                 + ",\nmedia=" + media
