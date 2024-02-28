@@ -13,10 +13,15 @@ public class TestWrapper {
 
         Double double2 = new Double("52.56");
         System.out.println("Double: " + double2);
+        double double3 = Double.parseDouble("145.5623");
+        System.out.println("Double2: " + double2);
+        System.out.println("Double3: " + double3);
 
         // Float float1 = new Float(52.3456f);
         Float float1 = Float.valueOf(52.3456f);
-        Float float2 = new Float("52");
+        Float float2 = Float.valueOf(float1);
+        float float3 = Float.parseFloat("79.321");
+        System.out.println("Float2: " + float2 + " Float3: " + float3);
         System.out.println("Float: " + (float1 + float2));
 
         Character c1 = new Character('a');

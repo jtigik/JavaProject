@@ -1,7 +1,5 @@
 package br.com.jtsilva.aluno;
 
-import br.com.jtsilva.aluno.Aluno;
-
 public class Exemplo {
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno(); // Criando um objeto da classe Aluno
