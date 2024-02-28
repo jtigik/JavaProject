@@ -1,7 +1,7 @@
 package br.com.jtsilva.veiculo;
 
 public class Carro {
-    Stirng nome;
+    String nome;
     String marca;
     int ano;
     int velocidade;
