@@ -5,8 +5,9 @@ public class ContaCorrenteMain {
         ContaCorrente conta = new ContaCorrente();
         conta.setNumeroConta(123456789);
         conta.setAgencia(1234);
-        conta.setSaldo(1000);
-        conta.setLimite(10000);
-        System.out.println(conta.toString());
+        conta.setSaldo(200);
+        conta.setLimite(200);
+        conta.setLimiteUtilizado(0);
+        conta.sacar(350);
     }
 }
