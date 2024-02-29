@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ContaCorrente {
 
-    private double limite;
+    private static final double limite = 2000;
     private int numeroConta;
     private int agencia;
     private double saldo;
@@ -19,10 +19,6 @@ public class ContaCorrente {
 
     public double getLimite() {
         return limite;
-    }
-
-    public void setLimite(double limite) {
-        this.limite = limite;
     }
 
     public int getNumeroConta() {
@@ -61,7 +57,6 @@ public class ContaCorrente {
         setNumeroConta(123456789);
         setAgencia(1234);
         setSaldo(170);
-        setLimite(250);
     }
 
     public void sacar(double valor) {
