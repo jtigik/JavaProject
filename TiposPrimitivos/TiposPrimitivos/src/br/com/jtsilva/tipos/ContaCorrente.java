@@ -57,6 +57,13 @@ public class ContaCorrente {
         this.limiteUtilizado = limiteUtilizado;
     }
 
+    public void criarConta() {
+        setNumeroConta(123456789);
+        setAgencia(1234);
+        setSaldo(170);
+        setLimite(250);
+    }
+
     public void sacar(double valor) {
 
         if ((saldo - valor) >= 0) {
@@ -97,24 +104,25 @@ public class ContaCorrente {
         System.out.flush();
     }
 
-    public void menu() {
+    public int menu() {
 
         System.out.println("1 - Sacar");
         System.out.println("2 - Depositar");
         System.out.println("3 - Consultar");
-        System.out.println("4 - Nova conta");
-        System.out.println("5 - Sair");
+        System.out.println("4 - Sair");
         System.out.println("Digite a opção desejada: ");
 
         Scanner scanner = new Scanner(System.in);
         int opcao = scanner.nextInt();
         switch (opcao) {
             case 1:
+                criarConta();
                 System.out.println("Digite o valor a ser sacado: ");
                 double valor = scanner.nextDouble();
                 sacar(valor);
                 break;
             case 2:
+                criarConta();
                 System.out.println("Digite o valor a ser depositado: ");
                 double valor2 = scanner.nextDouble();
                 depositar(valor2);
@@ -123,9 +131,6 @@ public class ContaCorrente {
                 System.out.println(this.toString());
                 break;
             case 4:
-                System.out.println(this.toString());
-                break;
-            case 5:
                 System.out.println("Obrigado por usar nosso programa!");
                 break;
             default:
@@ -133,5 +138,6 @@ public class ContaCorrente {
                 break;
         }
         scanner.close();
+        return opcao;
     }
 }
