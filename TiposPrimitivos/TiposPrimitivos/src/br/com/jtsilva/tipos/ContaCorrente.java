@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ContaCorrente {
 
-    private static final double limite = 2000;
+    private static final double limite = 200;
     private int numeroConta;
     private int agencia;
     private double saldo;
@@ -13,9 +13,15 @@ public class ContaCorrente {
     @Override
     public String toString() {
         return "ContaCorrente [numeroConta = " + this.numeroConta + ", agência = " + this.agencia + ", saldo = "
-                + this.saldo
-                + ", limiteUtilizado = " + this.limiteUtilizado + "]";
+                + this.saldo + "]";
     }
+    // @Override
+    // public String toString() {
+    // return "ContaCorrente [numeroConta = " + this.numeroConta + ", agência = " +
+    // this.agencia + ", saldo = "
+    // + this.saldo
+    // + ", limiteUtilizado = " + this.limiteUtilizado + "]";
+    // }
 
     public double getLimite() {
         return limite;
@@ -56,7 +62,7 @@ public class ContaCorrente {
     public void criarConta() {
         setNumeroConta(123456789);
         setAgencia(1234);
-        setSaldo(170);
+        setSaldo(5);
     }
 
     public void sacar(double valor) {
@@ -94,6 +100,27 @@ public class ContaCorrente {
         }
     }
 
+    public void sacar_2(double valor) {
+
+        if ((saldo - valor) >= limite) {
+            saldo -= valor;
+            System.out.println("Saque realizado com sucesso!");
+        } else {
+            System.out.println("Não há saldo o suficiente para a operação");
+        }
+        if (saldo < 0) {
+            System.out.println("Você está utilizando o cheque especial!");
+        }
+        System.out.println(this.toString());
+    }
+
+    public void depositar_2(double valor) {
+
+        saldo += valor;
+        System.out.println("Depósito realizado com sucesso!");
+        System.out.println(this.toString());
+    }
+
     public void clearScreen() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
@@ -114,13 +141,13 @@ public class ContaCorrente {
                 criarConta();
                 System.out.println("Digite o valor a ser sacado: ");
                 double valor = scanner.nextDouble();
-                sacar(valor);
+                sacar_2(valor);
                 break;
             case 2:
                 criarConta();
                 System.out.println("Digite o valor a ser depositado: ");
                 double valor2 = scanner.nextDouble();
-                depositar(valor2);
+                depositar_2(valor2);
                 break;
             case 3:
                 System.out.println(this.toString());
