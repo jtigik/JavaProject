@@ -13,6 +13,10 @@ public class EnumTest {
             System.out.println(mes.getName());
         }
 
-        System.out.println(EnumMesDoAno.obterMes(1));
+        System.out.println(EnumMesDoAno.obterMes(3));
+        System.out.println(EnumMesDoAno.obterMes(6).getName());
+
+        Integer a = 45;
+        System.out.println(a.getClass().getName());
     }
 }
