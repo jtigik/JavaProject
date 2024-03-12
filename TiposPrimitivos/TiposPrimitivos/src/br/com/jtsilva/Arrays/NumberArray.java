@@ -1,4 +1,4 @@
-package br.com.jtsilva.tipos;
+package br.com.jtsilva.Arrays;
 
 public class NumberArray {
     // Private array to store numbers

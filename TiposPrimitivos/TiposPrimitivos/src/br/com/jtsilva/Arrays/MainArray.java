@@ -1,6 +1,4 @@
-package br.com.jtsilva;
-
-import br.com.jtsilva.tipos.NumberArray;
+package br.com.jtsilva.Arrays;
 
 public class MainArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package br.com.jtsilva.tipos;
+package br.com.jtsilva.Enums;
 
 public enum EnumUF {
     RS,
