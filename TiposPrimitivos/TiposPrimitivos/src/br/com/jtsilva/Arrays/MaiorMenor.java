@@ -37,5 +37,30 @@ public class MaiorMenor {
 
         System.out.println(maior);
         System.out.println(menor);
+
+        // ================================================================
+        // Mais uma forma de verificar maior e menor (Class Math());
+        // ================================================================
+
+        for (int i = 0; i < numeros.length; i++) {
+            menor = Math.min(menor, numeros[i]);
+            maior = Math.max(maior, numeros[i]);
+        }
+
+        System.out.printf("O menor valor do Array: %d\n", menor);
+        System.out.printf("O maior valor do Array: %d\n", maior);
+
+        // ================================================================
+        // Ordenação com Array de String
+        // ================================================================
+
+        String[] nomes = { "José", "Maria", "Pedro", "Ana", "Claudia", "Marcos", "Pedro", "Natalia", "Antonio" };
+        System.out.println("Array antes de ordenar:");
+        System.out.println(Arrays.toString(nomes));
+
+        Arrays.sort(nomes);
+
+        System.out.println("Array depois de ordenar:");
+        System.out.println(Arrays.toString(nomes));
     }
 }
