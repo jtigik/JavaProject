@@ -62,5 +62,30 @@ public class MaiorMenor {
 
         System.out.println("Array depois de ordenar:");
         System.out.println(Arrays.toString(nomes));
+
+        // ================================================================
+        // Calcula média Array de double
+        // ================================================================
+
+        float[] notas = { 1.6f, 5.3f, 9.1f, 8.7f, 4.9f, 7.0f, 2.4f, 10.0f, 9.5f };
+        double[] grades = { 1.6, 5.3, 9.1, 8.7, 4.9, 7.0, 2.4, 10.0, 9.5 };
+        double soma = 0;
+
+        for (double nota : notas) {
+            soma += nota;
+        }
+        System.out.println(soma / notas.length);
+        double media = soma / notas.length;
+
+        soma = 0;
+        for (double grade : grades) {
+            soma += grade;
+        }
+        System.out.println(soma / grades.length);
+        double avg = soma / grades.length;
+
+        System.out.printf("A média das notas é: %.1f\n", media);
+        System.out.printf("A média das notas é: %.1f\n", avg);
+
     }
 }
