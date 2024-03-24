@@ -1,11 +1,10 @@
-package br.com.jtsilva.Heranca;
+package br.com.jtsilva.equipe;
 
 public class Membro {
     private String nome;
 
     public Membro(String nome) {
         setNome(nome);
-        System.out.printf("Membro %s realizando tarefa.\n", getNome());
     }
 
     public String getNome() {
@@ -15,4 +14,9 @@ public class Membro {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public void realizarTarefa() {
+        System.out.printf("Membro %s realizando tarefa.\n", getNome());
+    }
+
 }

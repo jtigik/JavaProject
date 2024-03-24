@@ -1,4 +1,4 @@
-package br.com.jtsilva.Heranca;
+package br.com.jtsilva.equipe;
 
 public class ProductOwner extends Membro {
 
