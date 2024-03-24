@@ -7,8 +7,8 @@ public class Try_Catch_Finally {
         int tamanho = 0;
 
         try {
-            String nome = null;
-            tamanho = nome.length();
+            // String nome = null;
+            // tamanho = nome.length();
 
         } catch (IllegalArgumentException | NullPointerException e) {
             System.out.println("Caught exception: " + e.getMessage());
