@@ -1,4 +1,4 @@
-package br.com.jtsilva.Arrays;
+package br.com.jtsilva.arrays;
 
 public class ClasseTeste extends StudentRecord {
     public ClasseTeste(String studentName, double[] testScores) {

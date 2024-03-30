@@ -1,4 +1,4 @@
-package br.com.jtsilva.Arrays;
+package br.com.jtsilva.arrays;
 
 public class PercorrendoArray {
     public static void main(String[] args) {

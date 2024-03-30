@@ -1,4 +1,4 @@
-package br.com.jtsilva.Arrays;
+package br.com.jtsilva.arrays;
 
 public class MainArray {
     public static void main(String[] args) {
