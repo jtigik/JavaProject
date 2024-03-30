@@ -4,7 +4,7 @@ incorporates OOPs concepts. We’ll create an enum called DayOfWeek to represent
 the days of the week, and then use it in a class to showcase encapsulation and
 abstraction.*/
 
-package br.com.jtsilva.Enums;
+package br.com.jtsilva.enums;
 
 public enum DayOfWeek {
     MONDAY("Start of the week"),

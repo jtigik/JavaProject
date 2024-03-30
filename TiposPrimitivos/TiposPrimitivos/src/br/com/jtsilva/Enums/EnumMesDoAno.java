@@ -1,4 +1,4 @@
-package br.com.jtsilva.Enums;
+package br.com.jtsilva.enums;
 
 public enum EnumMesDoAno {
     JANEIRO(1, "Jan"),

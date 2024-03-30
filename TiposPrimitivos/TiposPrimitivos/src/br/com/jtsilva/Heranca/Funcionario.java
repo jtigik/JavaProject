@@ -1,4 +1,4 @@
-package br.com.jtsilva.Heranca;
+package br.com.jtsilva.heranca;
 
 public class Funcionario extends Empregado {
     public Funcionario() {

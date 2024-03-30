@@ -1,4 +1,4 @@
-package br.com.jtsilva.Enums;
+package br.com.jtsilva.enums;
 
 public class EnumTest {
     public static void main(String[] args) {

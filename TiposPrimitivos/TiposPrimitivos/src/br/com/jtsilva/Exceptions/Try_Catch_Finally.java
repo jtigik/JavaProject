@@ -1,4 +1,4 @@
-package br.com.jtsilva.Exceptions;
+package br.com.jtsilva.exceptions;
 
 public class Try_Catch_Finally {
 

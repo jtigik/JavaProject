@@ -1,4 +1,4 @@
-package br.com.jtsilva.Exceptions;
+package br.com.jtsilva.exceptions;
 
 public class IdadeIvalidaException extends Exception {
     private int idade;

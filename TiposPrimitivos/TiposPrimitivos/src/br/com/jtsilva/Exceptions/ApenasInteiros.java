@@ -14,7 +14,7 @@ se o usuário inserir dados que não são um número inteiro.
 
 **Código:** */
 
-package br.com.jtsilva.Exceptions;
+package br.com.jtsilva.exceptions;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

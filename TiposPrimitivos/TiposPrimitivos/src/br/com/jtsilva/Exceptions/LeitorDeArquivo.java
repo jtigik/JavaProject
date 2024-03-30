@@ -13,7 +13,7 @@ foi encontrado.
 5. Se o arquivo não existir, crie um novo arquivo vazio com o nome fornecido.
 
  */
-package br.com.jtsilva.Exceptions;
+package br.com.jtsilva.exceptions;
 
 import java.io.File;
 import java.io.FileNotFoundException;
