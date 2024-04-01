@@ -6,13 +6,16 @@ public class Funcionario {
     protected double salario;
 
     // Construtor
-    public Funcionario(String nome, String cpf, double salario) {
+    public Funcionario(String nome,
+            String cpf,
+            double salario) {
         this.nome = nome;
         this.cpf = cpf;
         this.salario = salario;
     }
 
-    // Método para calcular o bônus (10% do salário)
+    // Método para calcular o bônus
+    // (10% do salário)
     public double calcularBonus() {
         return salario * 0.10;
     }
