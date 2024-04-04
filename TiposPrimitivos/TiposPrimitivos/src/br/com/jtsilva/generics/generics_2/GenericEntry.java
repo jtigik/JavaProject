@@ -4,18 +4,18 @@ public class GenericEntry<T, E> {
 
     private T data;
 
-    private E codigo;
+    private E code;
 
-    public GenericEntry(T data, E codigo) {
+    public GenericEntry(T data, E code) {
         this.data = data;
-        this.codigo = codigo;
+        this.code = code;
     }
 
     public T getData() {
         return this.data;
     }
 
-    public E getCodigo() {
-        return this.codigo;
+    public E getCode() {
+        return this.code;
     }
 }

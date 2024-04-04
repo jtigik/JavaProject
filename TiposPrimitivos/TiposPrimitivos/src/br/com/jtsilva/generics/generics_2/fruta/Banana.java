@@ -6,7 +6,10 @@ public class Banana implements IFruta {
     private boolean estaMadura;
     private double peso;
 
-    public Banana(String nome, String cor, boolean estaMadura, double peso) {
+    public Banana(String nome,
+            String cor,
+            boolean estaMadura,
+            double peso) {
         this.nome = nome;
         this.cor = cor;
         this.estaMadura = estaMadura;
