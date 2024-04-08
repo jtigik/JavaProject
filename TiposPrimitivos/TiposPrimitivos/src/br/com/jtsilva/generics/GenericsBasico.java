@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GenericsBasico {
-    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         List listaBruta = new ArrayList<>();
         listaBruta.add("Paulo");
