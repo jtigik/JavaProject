@@ -1,6 +1,7 @@
-# Exercício de Pesquisa: Explorando Diagramas de Classes e Casos de Uso
+# Pesquisa: Explorando Diagramas de Classes e Casos de Uso
 
 ## Objetivo
+
 Compreender e aplicar os conceitos de Diagramas de Classes e Diagramas de Casos de Uso na modelagem de sistemas orientados a objetos.
 
 ## Tarefas
@@ -14,4 +15,5 @@ Compreender e aplicar os conceitos de Diagramas de Classes e Diagramas de Casos 
 4. **Análise:** Analise como os Diagramas de Classes e Casos de Uso se complementam e contribuem para uma compreensão completa do sistema.
 
 ## Entrega
+
 Prepare um relatório documentando suas descobertas da pesquisa, juntamente com os diagramas criados e sua análise. Certifique-se de que seus diagramas sejam claros e bem organizados.
