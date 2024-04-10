@@ -16,4 +16,4 @@ Compreender e aplicar os conceitos de Diagramas de Classes e Diagramas de Casos 
 
 ## Entrega
 
-Prepare um relatório documentando suas descobertas da pesquisa, juntamente com os diagramas criados e sua análise. Certifique-se de que seus diagramas sejam claros e bem organizados.
+A entrega pode ser feita via email, WhatsApp ou Discord. Prepare um relatório documentando suas descobertas da pesquisa, juntamente com os diagramas criados e sua análise. Certifique-se de que seus diagramas sejam claros e bem organizados.
