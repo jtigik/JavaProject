@@ -16,4 +16,4 @@ Compreender e aplicar os conceitos de Diagramas de Classes e Diagramas de Casos 
 
 ## Entrega
 
-A entrega pode ser feita via email, WhatsApp ou Discord. Prepare um relatório documentando suas descobertas da pesquisa, juntamente com os diagramas criados e sua análise. Certifique-se de que seus diagramas sejam claros e bem organizados. **O prazo de entrega termina em 14/04/24 - 18h**
+A entrega pode ser feita via **email**, **WhatsApp** ou **Discord** até as **18h** do dia **14/04/24**. Prepare um relatório documentando suas descobertas da pesquisa, juntamente com os diagramas criados e sua análise. Certifique-se de que seus diagramas sejam claros e bem organizados.
