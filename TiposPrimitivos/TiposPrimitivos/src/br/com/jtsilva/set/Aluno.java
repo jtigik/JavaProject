@@ -1,7 +1,6 @@
 package br.com.jtsilva.set;
 
-public class Aluno /** implements Comparable<Aluno> */
-{
+public class Aluno {
     private String nome;
     private String curso;
     private double nota;

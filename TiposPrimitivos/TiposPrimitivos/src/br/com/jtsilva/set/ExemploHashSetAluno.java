@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class ExemploHashSetAluno {
     public static void main(String args[]) {
-        exemploListaSimples();
+        // exemploListaSimples();
         exemploConsultando();
-        exemploRemover();
+        // exemploRemover();
     }
 
     private static void exemploRemover() {
@@ -48,6 +48,12 @@ public class ExemploHashSetAluno {
         conjunto.add(d);
 
         System.out.println(conjunto.contains(e));
+
+        if (conjunto.contains(d)) {
+            System.out.println("Found!");
+        } else {
+            System.out.println("Not found!");
+        }
     }
 
     /**
