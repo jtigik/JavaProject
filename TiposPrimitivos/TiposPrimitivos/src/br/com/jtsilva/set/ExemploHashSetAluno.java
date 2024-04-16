@@ -47,17 +47,13 @@ public class ExemploHashSetAluno {
         conjunto.add(c);
         conjunto.add(d);
 
-        System.out.println(getEqual(d, conjunto));
+        System.out.println(getEqual(c, conjunto));
     }
 
     // Returns Set element
     private static Aluno getEqual(Aluno sample, Set<Aluno> all) {
-        for (Aluno one : all) {
-            if (one.equals(sample)) {
-                return one;
-            }
-        }
-        return null;
+
+        return all.contains(sample) ? sample : null;
     }
 
     /**
