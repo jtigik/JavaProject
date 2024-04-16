@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class ExemploHashSetAluno {
     public static void main(String args[]) {
-        // exemploListaSimples();
+        exemploListaSimples();
         exemploConsultando();
-        // exemploRemover();
+        exemploRemover();
     }
 
     private static void exemploRemover() {
@@ -47,13 +47,17 @@ public class ExemploHashSetAluno {
         conjunto.add(c);
         conjunto.add(d);
 
-        System.out.println(conjunto.contains(e));
+        System.out.println(getEqual(d, conjunto));
+    }
 
-        if (conjunto.contains(d)) {
-            System.out.println("Found!");
-        } else {
-            System.out.println("Not found!");
+    // Returns Set element
+    private static Aluno getEqual(Aluno sample, Set<Aluno> all) {
+        for (Aluno one : all) {
+            if (one.equals(sample)) {
+                return one;
+            }
         }
+        return null;
     }
 
     /**
