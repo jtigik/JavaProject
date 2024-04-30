@@ -1,8 +1,6 @@
 # Paradigmas de programação
 
-## ----------------------------------------------------------------
-
-### Programação Procedural
+## Programação Procedural
 
 - **Características Principais**:
   - **Procedimentos e Funções**: A programação procedural se baseia em **procedimentos** ou **funções**. Essas funções contêm um conjunto de instruções que são executadas sequencialmente.
@@ -11,7 +9,7 @@
   - **Divisão Modular**: O código é dividido em pequenas partes reutilizáveis, facilitando a manutenção e a depuração.
   - **Exemplo**: Linguagens como **C**, **Pascal** e **Fortran** seguem o paradigma procedural.
 
-### Programação Orientada a Objetos (POO)
+## Programação Orientada a Objetos (POO)
 
 - **Características Principais**:
   - **Objetos e Classes**: A POO se concentra em **objetos** e **classes**. Um **objeto** é uma instância de uma **classe**. As classes definem a estrutura e o comportamento dos objetos.
