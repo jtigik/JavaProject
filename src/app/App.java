@@ -1,7 +1,8 @@
 package app;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    // Aplicação principal
+    public static void main(String[] args) {
         Estoque estoque = new Estoque();
         Produto produto = new Produto();
 

@@ -6,12 +6,11 @@ public class Produto {
     Double preco;
     Integer quantidade;
 
-    /**
-     * @param codigo
-     * @param nome
-     * @param preco
-     * @param quantidade
+    /*
+     * Foram definidos 2 tipos construtores (vazio e com parâmetros)
+     * para proporcionar maior flexibilidade à aplicação.
      */
+
     public Produto(Integer codigo, String nome, Double preco, Integer quantidade) {
         this.codigo = codigo;
         this.nome = nome;
