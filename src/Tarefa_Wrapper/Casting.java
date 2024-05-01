@@ -15,6 +15,5 @@ public class Casting {
         System.out.printf("Valor convertido para Wrapper: %s\n", numero);
 
         scanner.close();
-
     }
 }
