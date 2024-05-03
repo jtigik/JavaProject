@@ -21,6 +21,7 @@ public class MediaNotas {
 
         if (nota >= 0.0 && voltas > 0) {
             // Calcula a média das notas
+
             double media = nota / voltas;
             System.out.printf("A média de %d nota(s) é: %.1f\n", voltas, media);
         } else {
