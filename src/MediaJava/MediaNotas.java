@@ -1,4 +1,4 @@
-package MediaEBAC;
+package MediaJava;
 
 import java.util.Scanner;
 
