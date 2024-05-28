@@ -3,8 +3,8 @@ package app;
 public class App {
     // Aplicação principal
     public static void main(String[] args) {
-        Estoque estoque = new Estoque();
         Produto produto = new Produto();
+        Estoque estoque = new Estoque();
 
         produto.setCodigo(1234);
         produto.setNome("Amaciante");
@@ -12,6 +12,14 @@ public class App {
         produto.setQuantidade(20);
 
         estoque.cadastrar(produto);
-        estoque.consultar(0);
+        estoque.consultar(1234);
+
+        produto.setCodigo(3467);
+        produto.setNome("Sabonete");
+        produto.setPreco(12d);
+        produto.setQuantidade(10);
+
+        estoque.cadastrar(produto);
+        estoque.consultar(3467);
     }
 }
