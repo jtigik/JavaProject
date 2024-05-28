@@ -34,5 +34,7 @@ public class OperadoresLogico {
 
         System.out.printf("O banho de mar está %s",
                 qualidadeDaAgua.equalsIgnoreCase("limpa") ? "LIBERADO" : "PROIBIDO");
+        System.out.printf("O banho de mar está %s",
+                qualidadeDaAgua.equalsIgnoreCase("limpa") ? "LIBERADO" : "PROIBIDO");
     }
 }
