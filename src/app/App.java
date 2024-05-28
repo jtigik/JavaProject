@@ -2,7 +2,7 @@ package app;
 
 public class App {
     // Aplicação principal
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Produto produto = new Produto();
         Estoque estoque = new Estoque();
 
@@ -12,7 +12,7 @@ public class App {
         produto.setQuantidade(20);
 
         estoque.cadastrar(produto);
-        estoque.consultar(1234);
+        estoque.consultar(0);
 
         produto.setCodigo(3467);
         produto.setNome("Sabonete");
