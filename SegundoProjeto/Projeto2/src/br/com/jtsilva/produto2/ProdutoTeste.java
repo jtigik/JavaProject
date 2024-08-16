@@ -5,7 +5,7 @@ public class ProdutoTeste {
 
         Produto produto = new Produto();
         Produto produto1 = new Produto();
-        Produto vetor[];
+        Produto vetor[] = new Produto[2];
 
         /*
          * Multiline comment:
@@ -18,13 +18,20 @@ public class ProdutoTeste {
         produto.setValorProduto(3.78);
         produto.setNomeProduto("Arroz");
         produto.setMarca("São João");
+        vetor[0] = produto;
+        System.out.println(vetor[0].toString());
 
-        produto1.setDetalhesProduto("Feijão preto sem casca");
-        produto1.setValorProduto(8.90);
-        produto1.setNomeProduto("Feijão");
-        produto1.setMarca("Prato cheio");
+        produto.setDetalhesProduto("Feijão preto sem casca");
+        produto.setValorProduto(8.90);
+        produto.setNomeProduto("Feijão");
+        produto.setMarca("Prato cheio");
+        vetor[1] = produto;
+        System.out.println(vetor[1].toString());
 
-        System.out.println(produto.toString());
-        System.out.println(produto1.toString());
+        System.out.println(vetor.length);
+        /*
+         * System.out.println(produto.toString());
+         * System.out.println(produto1.toString());
+         */
     }
 }
