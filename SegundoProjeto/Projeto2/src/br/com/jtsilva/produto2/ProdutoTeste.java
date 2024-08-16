@@ -19,16 +19,17 @@ public class ProdutoTeste {
         produto.setNomeProduto("Arroz");
         produto.setMarca("São João");
         vetor[0] = produto;
-        System.out.println(vetor[0].toString());
 
-        produto.setDetalhesProduto("Feijão preto sem casca");
-        produto.setValorProduto(8.90);
-        produto.setNomeProduto("Feijão");
-        produto.setMarca("Prato cheio");
-        vetor[1] = produto;
-        System.out.println(vetor[1].toString());
+        produto1.setDetalhesProduto("Feijão preto sem casca");
+        produto1.setValorProduto(8.90);
+        produto1.setNomeProduto("Feijão");
+        produto1.setMarca("Prato cheio");
+        vetor[1] = produto1;
 
-        System.out.println(vetor.length);
+        for (Produto prod : vetor) {
+            System.out.println(prod.toString());
+        }
+
         /*
          * System.out.println(produto.toString());
          * System.out.println(produto1.toString());
