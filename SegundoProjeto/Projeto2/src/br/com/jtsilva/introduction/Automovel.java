@@ -17,6 +17,11 @@ public class Automovel {
         return proprietario;
     }
 
+    @Override
+    public String toString() {
+        return "Automovel [proprietario=" + proprietario + ", placa=" + placa + "]";
+    }
+
     public void setProprietario(String proprietario) {
         this.proprietario = proprietario;
     }

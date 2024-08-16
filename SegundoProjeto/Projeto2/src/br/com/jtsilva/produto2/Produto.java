@@ -37,4 +37,11 @@ public class Produto {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
+    @Override
+    public String toString() {
+        return "Produto [nomeProduto=" + nomeProduto + ", valorProduto=" + valorProduto + ", detalhesProduto="
+                + detalhesProduto + ", marca=" + marca + "]";
+    }
+
 }
