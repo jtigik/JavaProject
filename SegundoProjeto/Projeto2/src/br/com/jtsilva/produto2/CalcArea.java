@@ -19,7 +19,7 @@ public class CalcArea {
         System.out.println("Base: ");
         n2 = sc.nextFloat();
 
-        System.out.println(calcArea(n1, n2));
+        System.out.printf("Área total: %.2f", calcArea(n1, n2));
 
         sc.close();
 
